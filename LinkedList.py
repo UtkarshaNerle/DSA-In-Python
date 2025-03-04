@@ -8,13 +8,13 @@ class LinkedL:
         self.head=None
         
     def display(self):
-        if self.head is None:
-            print("LinkedList is Empty")
-        else:
-            new_node = self.head
-            while new_node:
-                print(new_node.data,"-->",end=" ")
-                new_node = new_node.next
+        # if self.head is None:
+        #     print("LinkedList is Empty")
+        # else:
+        new_node = self.head
+        while new_node:
+            print(new_node.data,"-->",end=" ")
+            new_node = new_node.next
                 
 s=LinkedL()
 
